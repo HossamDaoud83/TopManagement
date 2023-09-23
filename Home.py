@@ -15,3 +15,11 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+# Create a button that links to an external website
+external_link = "https://laila-bot-gsb.streamlit.app/"  # Replace with the actual URL
+if st.button("Chat with Laila AI"):
+    st.markdown(f"Redirecting to [{external_link}]({external_link})")
+    # You can also use st.markdown to create a clickable link to the external website:
+    # st.markdown(f"[Visit External Website]({external_link})")
