@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="GSB", page_icon="16.png")
+st.set_page_config(page_title="GSB Evaluation System", page_icon="16.png")
 st.image("GSB Medium.png", width=120,)
 
 st.title("GSB Evaluation System")
